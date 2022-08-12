@@ -1,0 +1,57 @@
+.form__group h1{
+    font-size: 15px;
+    margin: 10px;
+    margin-right: 20%;
+}
+.form__group{
+    display: flex;
+    position: relative;
+    padding: 15px 0 0;
+    width: 100%;
+}
+.form__group p{
+    background-color: inherit;
+    color: red;
+    font-size: 12px;
+}
+.form__field{
+    font-family: inherit;
+    width: 100%;
+    border:0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color:#fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.form__field::placeholder{
+    color: black;
+}
+.form__field:focus{
+    padding-bottom:6px;
+    animation-name: formanimate;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease;
+    font-weight: 700;
+    border-width:4px;
+    border-image:linear-gradient(to right,#ff0063,#00ffff);
+    border-image-slice: 1;
+}
+.Bottompart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.Bottompart button{
+    color : black;
+    font-size: 1.8rem;
+    background-color: rgb(0, 174, 255);
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: black;
+    margin-bottom: 10px;
+}
